@@ -24,4 +24,4 @@ if [ ! -f "$CSV" ]; then
     echo "id,name,weight,height,order" > "$CSV"
 fi
 echo "$ID,$NAME,$WEIGHT,$HEIGHT,$ORDER" >> "$CSV"
-exit1
+exit 1
