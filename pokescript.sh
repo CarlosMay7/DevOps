@@ -6,7 +6,7 @@ fi
 
 CSV="pokemon_data.csv"
 
-RESPONSE=$(curl -s "https://pokeapi.co/api/v2/pokemon/$$1")
+RESPONSE=$(curl -s "https://pokeapi.co/api/v2/pokemon/$1")
 
 ID=$(echo "$RESPONSE" | jq .id)
 NAME=$(echo "$RESPONSE" | jq -r .name)
