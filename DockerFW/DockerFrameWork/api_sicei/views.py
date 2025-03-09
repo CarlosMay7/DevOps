@@ -14,7 +14,7 @@ profesores = [
     {"nombre": "Dr. Ing. Carlos May ", "numeroEmpleado": "P007"},
     {"nombre": "Per. Fernando Joachin", "numeroEmpleado": "P003"},
     {"nombre": "Per. Valentina Ortiz", "numeroEmpleado": "P004"},
-    {"nombre": "UwU. José Leo", "numeroEmpleado": "P004"}
+    {"nombre": "Per. José Leo", "numeroEmpleado": "P004"}
 ]
 
 def get_alumnos(request):
